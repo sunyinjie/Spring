@@ -12,6 +12,5 @@ public class BootStrap {
         SimpleBean bean = (SimpleBean) context.getBean("simpleBean");
         bean.send();
         context.close();
-        System.out.println("dd");
     }
 }
